@@ -1,0 +1,231 @@
+﻿<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" ><title>Multimedia Streaming Services | High Performance Computing Laboratory</title>
+
+<link href="hpcl.css" type="text/css" rel="Stylesheet"></head><body leftmargin="0" topmargin="0" bgcolor="#efefef" marginheight="0" marginwidth="0">
+<table bgcolor="white" border="0" cellpadding="0" cellspacing="0" height="100%" width="800">
+  <tbody><tr>
+    <td style="border: 1px solid rgb(102, 102, 102);" valign="top">
+      <table border="0" cellpadding="0" cellspacing="0" width="800">
+        <tbody><tr>
+          <td bgcolor="#660000" height="20">
+            &nbsp;&nbsp;&nbsp;&nbsp;<a class="univlink" href="http://www.cs.tamu.edu/">DEPARTMENT OF COMPUTER SCIENCE</a> <font color="white">|</font> <a class="univlink" href="http://aggieengineer.tamu.edu/">DWIGHT LOOK COLLEGE OF ENGINEERING</a> <font color="white">|</font> <a class="univlink" href="http://www.tamu.edu/">TEXAS A&amp;M UNIVERSITY</a></td>
+        </tr>
+        <tr>
+          <td height="92">
+           <table border="0" cellpadding="0" height="100%" width="100%">
+             <tbody><tr>
+               <td align="center">
+                 <img src="images/hpcl_logo.jpg" border="0" width="80"></td>
+               <td>
+                 <font color="#8e0e1b" face="Tahoma" size="5"><b>High Performance Computing Laboratory</b></font>
+                  </td>
+               </tr>
+           </tbody></table></td>
+        </tr>
+        <tr>
+          <td bgcolor="black" height="22">
+            <font color="white">&nbsp;&nbsp;&nbsp;&nbsp;<a class="lablink" href="https://people.engr.tamu.edu/ejkim/HPC_WEB/index.html">Home</a>
+            | <a class="lablink" href="https://people.engr.tamu.edu/ejkim/HPC_WEB/research_2010.html">Research</a> 
+            | <a class="lablink" href="https://people.engr.tamu.edu/ejkim/HPC_WEB/publication.html">Publication</a> 
+            | <a class="lablink" href="https://people.engr.tamu.edu/ejkim/HPC_WEB/people.html">People</a>
+            | <a class="lablink" href="https://people.engr.tamu.edu/ejkim/HPC_WEB/links.html">Links</a> 
+            </font></td>
+        </tr>
+        <tr>
+          <td height="400" valign="top">
+            <table cellspacing="20">
+              <tbody><tr><td class="hpclBodyText" align="jusify">
+<!-- body start -->
+<hr noshade="noshade" width="90%">
+<center><font class="pagetitle"><b>Multimedia Streaming Services</b><br>High Performance Computing Laboratory</font></center>
+<hr noshade="noshade" width="90%">
+
+<p>
+The rapid growth of new wireless and mobile devices accessing the internet has contributed to a whole new level
+of heterogeneity in multimedia communications. In particular, in home networks have also increased in 
+heterogeneity by using various devices such as laptops, cell phone, PDAs, and an increasing array of 
+connected consumer home-based electronic devices. These home-based heterogeneous connections require
+efﬁcient distribution of shared network resources which is a major concern for the transport of stored video. 
+One challenge is to quickly and precisely estimate the available bandwidth for the decision of streaming rates 
+of layered and scalable multimedia services. 
+</p> 
+
+<p>
+Previous works based on wired networks are too burdensome to be applied to multimedia applications 
+in wireless networks. In our study, a set-top box is the access pointer between the internet and a home network. 
+We aim to design a set-top box performing ﬂow control of a home network and quality adaptation to match the 
+delivered stream quality to the available bandwidth. We propose an ActiveSTB which has a capability of buffering 
+and quality adaptation based on the estimation for the available bandwidth in the wireless LAN. 
+</p>
+
+<p>
+<center>
+<table>
+<tbody><tr><td colspan="1" align="center"><b>Streaming Service in Wireless LAN</b></td></tr>
+<tr>
+<td><img src="images/Wireless_Env_1.JPG" width="400" hight="500"></td>
+</tr>
+</tbody>
+</table>
+</center>
+</p>
+
+<br><br>
+<p>
+<a name="initial"><b>Estimation of Available Bandwidth</b></a>
+The popularity of multimedia streaming services via wireless networks presents major challenges in the 
+management of network bandwidth. One challenge is to quickly and precisely estimate the available 
+bandwidth for the decision of streaming rates of layered and scalable multimedia services. Previous
+works based on wired networks are too burdensome to be applied to multimedia applications in wireless 
+networks. In this project, a new method, IdleGap, is suggested to estimate the available bandwidth of 
+a wireless LAN based on the information from a low layer in the protocol stack.
+</p>
+
+<p>
+In a wireless network, the IEEE 802.11 protocol in Distributed Co-ordination Function (DCF) mode, based
+on CSMA/CA algorithm, is becoming very popular usng network allocation vector (NAV). Previous works based
+on the bandwidth estimation of wired environments are not applicable to wireless networks that use the 
+DCF protocol. Multimedia streaming is a soft real-time service where each frame is delay-sensitive. 
+We propose to add an Idle-Module in the MAC layer of a node in the network that to get the available 
+bandwidth in wireless networks. 
+</p>
+
+<center>
+<table>
+<tbody><tr><td colspan="2" align="center"><b>Estimation of Available Bandwidth</b></td></tr>
+<tr>
+<td><img src="images/NAV_1.jpg" width="350" height="250"></td>
+<td><img src="images/Idle_Module_1.jpg" width="350" height="250"></td>
+</tr>
+<tr>
+<td align="center">Network Allocation Vector</td>
+<td align="center">Idle Module</td>
+</tr>
+</tbody></table>
+</center>
+
+<br><br>
+<p>
+<a name="later"><b>Quality Adaptation in Wireless Networks</b></a>
+The popularity of multimedia streaming services via wireless home networks has confronted major challenges
+in quality improvement for services through a set-top-box (STB). Even though scalable methods have been 
+suggested to enhance the quality of streaming services, it is still challenging how to use scalable 
+streaming services in wireless home networks. Previous studies on the scalable streaming services drop the
+corrupted stream at the multimedia client. In this porject, we propose a new method, ActiveSTB, which drops
+the distorted or unsuitable multimedia data early to save frugal resources.
+</p>
+
+<p>
+In scalable streaming services, it is very critical for the STB to know the available wireless network 
+bandwidth. The A STB serves as a bottleneck the server and heterogeneous client devices, and the bottleneck 
+determines the quality of a delivered stream to each clients. Thus an STB must efficiently distribute the 
+buffered requested scalable streams to heterogeneous clients. The goal of our ActiveSTB will be to drop 
+dispensable streams to provide the multimedia stream with best quality and additionally simultaneously 
+perform quality-adaptation to the available bandwidth.
+</p>
+
+</p><center>
+<table>
+<tbody><tr><td colspan="2" align="center"><b>Active Set Top Box</b></td></tr>
+<tr>
+<td><img src="images/Early_Drop_1.jpg" width="350" height="250"></td>
+<td><img src="images/Sim_Plan_1.jpg" width="350" height="250"></td>
+</tr>
+<tr>
+<td align="center">Drop Dispensable Streams</td>
+<td align="center">Simulation Environments</td>
+</tr>
+
+</tbody></table>
+</center>
+
+<br><br>
+<p>
+<a name="later"><b> Sensor Networks </b></a>
+Along with energy conservation, it has been a critical issue to maintain a desired degree of coverage in wireless
+sensor networks (WSNs), especially in a mobile environment. By enhancing a variant of Random Waypoint (RWP) model, 
+we propose Mobility Resilient Coverage Control (MRCC) to assure K-coverage in the presence of mobility. Our basic 
+goals are 1) to elaborate the probability of breaking K-coverage with moving-in and moving-out probabilities, and 
+2) to issue wake-up calls to sleeping sensors to meet user requirement of K-coverage even in the presence of mobility. 
+Furthermore, by separating the mobility behavior into average and individual, the probability of breaking K-coverage 
+can be precisely calculated, hence reducing the number of sensors to be awakened. 
+</p>
+
+
+<!-- ========================== -->
+<p></p><hr noshade="noshade" width="90%">
+
+<a name="top"> <h1>Papers</h1> </a>
+
+<p style="margin-left: 60px;">
+</p><ul>
+<font class="aatitle">
+<li><font class="ytitle">"ROAL: A Randomly Ordered Activation and Layering Protocol for Ensuring K-Coverage in Wireless Sensor Networks,"</font> Journal of Networks (JNW), Vol. 3, No. 1, pp. 43-52, Jan 2008. (<a href="https://people.engr.tamu.edu/ejkim/HPC_WEB/docs/JNW_ROAL.pdf"> pdf </a>)
+</li></font>
+</ul>
+
+<p style="margin-left: 60px;">
+</p><ul>
+<font class="aatitle">
+<li>  <font class="ytitle">"Bandwidth Estimation in Wireless LANs for Multimedia Streaming Services,"</font> Advances in Multimedia, vol. 2007, Article ID 70429, 7 pages, 2007. (<a href="https://people.engr.tamu.edu/ejkim/HPC_WEB/docs/Advanced_Multimedia07.pdf">pdf </a>)
+</li></font>
+</ul>
+
+<p style="margin-left: 60px;">
+</p><ul>
+<font class="aatitle">
+<li><font class="ytitle">"Design of Active Set Top Box in a Wireless Network for Scalable Streaming Services,"</font> in Proceedings of the 2007 International Conference on Image Processing (ICIP), San Antonio, 2007. (<a href="https://people.engr.tamu.edu/ejkim/HPC_WEB/docs/icip07.pdf"> pdf </a>)
+</li></font>
+</ul>
+
+<p style="margin-left: 60px;">
+</p><ul>
+<font class="aatitle">
+<li><font class="ytitle">"Assuring K-Coverage in the Presence of Mobility in Wireless Sensor Networks,"</font> in Proceedings of IEEE GLOBECOM2006, selected for best papers. (<a href="https://people.engr.tamu.edu/ejkim/HPC_WEB/docs/globefinal.pdf"> pdf </a>)
+</li></font>
+</ul>
+
+<p style="margin-left: 60px;">
+</p><ul>
+<font class="aatitle">
+<li> <font class="ytitle">"Bandwidth Estimation In Wireless LANs For Multimedia Streaming Services,"</font> in Proceedings of the 2006 International Conference on Multimedia & Expo (ICME), Toronto, 2006 (<a href="https://people.engr.tamu.edu/ejkim/HPC_WEB/docs/icme06.pdf"> pdf </a>)
+</li></font>
+</ul>
+
+<p style="margin-left: 60px;">
+</p><ul>
+<font class="aatitle">
+<li><font class="ytitle">"Power Management in RAID Server Disk System Using Multiple Idle States,"</font> in the Proceedings of International Workshop on Unique Chips and Systems (UCAS) 2005. (<a href="https://people.engr.tamu.edu/ejkim/HPC_WEB/docs/ucas-1.pdf"> pdf </a>)
+</li></font>
+</ul>
+
+<p style="margin-left: 60px;">
+</p><ul>
+<font class="aatitle">
+<li><font class="ytitle">"Power Mangement in Disk Storage System with Multiple RPMs,"</font>   poster presentation in the Fourth Annual Austin Conference on Energy-efficient Design, 2005.
+</li></font>
+</ul>
+
+
+<span style=""></span>
+
+<p class="MsoNormal"><span style="font-size: 11pt;"><o:p></o:p></span></p>
+
+<!-- body end -->
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+        <tr>
+          <td class="hpclFooter" style="border: 1px solid rgb(102, 102, 102);" bgcolor="#cccccc" height="40" valign="center">
+&nbsp;&nbsp;&nbsp;&nbsp;© 2004 High Performance Computing Laboratory,
+Department of Computer Science, Texas A&amp;M University<br> 
+            &nbsp;&nbsp;&nbsp;&nbsp;427C Harvey R. Bright Bldg, College Station, TX 77843-3112
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+</tbody></table>
+</body></html>

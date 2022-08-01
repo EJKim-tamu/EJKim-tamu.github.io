@@ -1,0 +1,45 @@
+.univlink {
+  FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Helvetica, sans-serif; color: white; text-decoration: none;
+}
+A.univlink:visited {
+	COLOR: white; TEXT-DECORATION: none;
+}
+A.univlink:hover {
+	COLOR: darkgray; TEXT-DECORATION: none;
+}
+A.univlink:active {
+  color: white; text-decoration:none;
+}
+A.univlink:link {
+	COLOR: white; TEXT-DECORATION: none;
+}
+.lablink {
+  FONT-SIZE: 9pt; FONT-FAMILY: Verdana, Helvetica, sans-serif; color: white; text-decoration: none;
+}
+A.lablink:link {
+  color: white; text-decoration: none;
+}
+A.lablink:visited {
+  color: white; text-decoration:none;
+}
+A.lablink:active {
+  color: white; text-decoration: none;
+}
+A.lablink:hover {
+  color: darkgray; text-decoration: underline;
+}
+.hpclBodyText {
+  font: 16px helvetica; text-decoration: none;
+}
+.hpclFooter {
+	font: 12px/15px verdana, arial, helvetica, sans-serif;	margin: 0px;
+}
+.hpclHeading1 {
+  FONT-WEIGHT: bold; FONT-SIZE: 18pt; FONT-FAMILY: Helvetica, sans-serif; color: black; text-decoration: none;
+}
+.hpclHeading2 {
+  FONT-WEIGHT: bold; FONT-SIZE: 14pt; FONT-FAMILY: Helvetica, sans-serif; color: black; text-decoration: none;
+}
+.hpclHeading3 {
+  FONT-WEIGHT: bold; FONT-SIZE: 12pt; FONT-FAMILY: Helvetica, sans-serif; color: black; text-decoration: none;
+}

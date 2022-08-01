@@ -1,0 +1,204 @@
+<html>
+
+<head>
+<title>Dynamic Thermal Management in CMPs | High Performance Computing Laboratory</title>
+<LINK href="hpcl.css" type=text/css rel=Stylesheet>
+</head>
+
+<body bgcolor="#EFEFEF" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+<table border="0" cellpadding="0" cellspacing="0" width="800" height="100%" bgcolor="white">
+  <tr>
+    <td valign="top" style="border-width:1; border-color:rgb(102,102,102); border-style:solid;">
+      <table cellspacing="0" width="800" border="0" cellpadding="0">
+        <tr>
+          <td bgcolor="#660000" height="20">
+            &nbsp;&nbsp;&nbsp;&nbsp;<a class='univlink' href="http://www.cs.tamu.edu/">DEPARTMENT OF COMPUTER SCIENCE</a> <font color='white'>|</font> <a class='univlink' href="http://aggieengineer.tamu.edu/">DWIGHT LOOK COLLEGE OF ENGINEERING</a> <font color='white'>|</font> <a class='univlink' href="http://www.tamu.edu/">TEXAS A&amp;M UNIVERSITY</a></td>
+        </tr>
+        <tr>
+          <td height="92">
+           <table border="0" width="100%" height="100%" cellpadding='0'>
+             <tr>
+               <td align='center'>
+                 <img src="images/hpcl_logo.jpg" border="0" width="32"></td>
+               <td>
+                 <font face="Tahoma" color=#8E0E1B size="5"><b>High Performance Computing Laboratory</b></font>
+                  </td>
+               </tr>
+           </table></td>
+        </tr>
+        <tr>
+          <td height="22" bgcolor="black">
+            <font color='white'>&nbsp;&nbsp;&nbsp;&nbsp;<a class='lablink' href=index.html>Home</a>
+            | <a class='lablink' href=research_2010.html>Research</a> 
+            | <a class='lablink' href=publication.html>Publication</a> 
+            | <a class='lablink' href=people.html>People</a>
+            | <a class='lablink' href=links.html>Links</a> 
+            </font></td>
+        </tr>
+        <tr>
+          <td height="400" valign="top">
+            <table cellspacing=20>
+              <tr><td class='hpclBodyText' align='jusify'>
+<!-- body start -->
+<hr width=90% noshade>
+<center><font class=pagetitle><b>High Performance and Energy Efficient Cluster Interconnect Design</b><br>High Performance Computing Laboratory</font></center>
+<hr width=90% noshade>
+
+<P>
+<a name="initial"><b>Performance analysis of a QoS capable cluster interconnect</b></a>
+The growing use of clusters in diverse applications, many of which have real-time constraints, requires
+quality-of-service (QoS) support from the underlying cluster interconnect. All prior studies on QoS-aware cluster
+routers/networks have used simulation for performance evaluation. In this work, 
+we present an analytical model for a wormhole-switched router with QoS provisioning. 
+In particular, the model captures message blocking due
+to wormhole switching in a pipelined router, and bandwidth sharing due to a rate-based scheduling mechanism,
+called VirtualClock. Then we extend the model to a hypercube-style cluster network. Average message latency
+for different traffic classes and deadline missing probability for real-time applications are computed using the model.
+We evaluate a 16-port router and hypercubes of different dimensions with a mixed workload of real-time
+and best-effort (BE) traffic. Comparison with the simulation results shows that the single router and the network
+models are quite accurate in providing the performance estimates, and thus can be used as efficient design tools.
+<div align=center>
+      <table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+       <tr>
+        <td style='padding:.75pt .75pt .75pt .75pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b>Cluser Interconnect Design</b></p>
+        </td>
+       </tr>
+       <tr>
+        <td style='padding:.75pt .75pt .75pt .75pt'>
+        <p class=MsoNormal><img border=0 width="450" 
+        src="images/QoS.jpg"></p>
+        </td>
+       </tr>
+      </table>
+</div>
+                                   
+<a name="initial"><b>Performance Enhancement Techniques for InfiniBand Architecture</b></a>
+
+<p>
+InfiniBand Architecture (IBA) is envisioned to be the
+default communication fabric for system area networks
+(SANs). However, the released IBA specification outlines
+only higher level functionalities, leaving it open for
+exploring various design alternatives. In this work, we
+investigate four co-related techniques to provide high and
+predictable performance in IBA. These are: (i) using the
+Shortest Path First (SPF) algorithm for deterministic packet
+routing; (ii) developing a multipath routing mechanism for
+minimizing congestion; (iii) developing a selective packet
+dropping scheme to handle deadlock and congestion; and
+(iv) providing multicasting support for customized applications.
+These designs are evaluated using an integrated
+workload on a versatile IBA simulation testbed.
+Simulation results indicate that the SPF routing, multipath
+routing, packet dropping, and multicasting schemes
+are quite effective in delivering high and assured performance
+in clusters. One of the major contributions of this
+research is the IBA simulation testbed, which is an essential
+tool to evaluate various design tradeoffs.
+<div align=center>
+      <table border=0 cellpadding=0 style='mso-cellspacing:1.5pt'>
+       <tr>
+        <td style='padding:.75pt .75pt .75pt .75pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b>Infiniband Architecture</b></p>
+        </td>
+       </tr>
+       <tr>
+        <td style='padding:.75pt .75pt .75pt .75pt'>
+        <p class=MsoNormal><img border=0 width="450" 
+        src="images/infiniband.jpg"></p>
+        </td>
+       </tr>
+      </table>
+</div>
+
+<p>
+<a name="initial"><b>Energy-Efficient Cluster Interconnects</b></a>
+Designing energy-efficient clusters has
+recently become an important concern to make these
+systems economically attractive for many applications.
+Since the cluster interconnect is a major part of
+the system, the focus of this work is to characterize
+and optimize the energy consumption in the entire
+interconnect.
+Using a cycle-accurate simulator of an InfiniBand
+Architecture (IBA) compliant interconnect fabric and
+actual designs of its components, we investigate
+the energy behavior on regular and irregular interconnects.
+The energy profile of the three major
+components (switches, network interface cards
+(NICs), and links) reveals that the links and switch
+buffers consume the major portion of the power
+budget. Hence, we focus on energy optimization
+of these two components. To minimize power in
+the links, first we investigate the dynamic voltage
+scaling (DVS) algorithm and then propose a novel
+dynamic link shutdown (DLS) technique. The DLS
+technique makes use of an appropriate adaptive
+routing algorithm to shutdown the links intelligently.
+We also present an optimized buffer design for
+reducing leakage energy in 70nm technology. Our
+analysis on different networks reveals that while DVS
+is an effective energy conservation technique, it incurs
+significant performance penalty at low to medium
+workload. Moreover, energy saving with DVS reduces
+as the buffer leakage current becomes significant with
+70nm design.On the other hand, the proposed DLS
+technique can provide optimized performance-energy
+behavior (up to 40% energy savings with less than
+5% performance degradation in the best case) for
+the cluster interconnects.
+
+
+<!-- ========================== -->
+<p><hr width="90%" noshade>
+
+<a NAME="top"> <h1>Papers</h1> </a>
+<p style='margin-left:60;'>
+<UL>
+<font class=aatitle>
+<LI> K. H. Yum, Y. Jin, E. J. Kim, and C. R. Das, &quot;Integration of Admission, Congestion, and Peak Power Control in QoS-Aware Clusters,&quot; to appear in The Journal of Parallel and Distributed Computing (JPDC).
+</font>
+</UL>
+<p style='margin-left:60;'>
+<UL>
+<font class=aatitle>
+<LI> E. J. Kim, K. H. Yum, C. R. Das, M. Yousif, and J. Duato, &quot;Exploring IBA Design Space for Improved Performance,&quot; IEEE Transactions on Parallel and Distributed Systems (TPDS), Vol. 18, No. 4, pp. 498-510, April 2007 (<a href="docs/Exploring_IBA_journal.pdf">pdf</a>).
+</font>
+</UL>	
+<p style='margin-left:60;'>
+<UL>
+<font class=aatitle>
+<LI> 
+E. J. Kim, G. M. Link, K. H. Yum, V. Narayanan, M. Kandemir, M. J. Irwin, C. R. Das, &quot;A Holistic Approach to Designing Energy-Efficient Cluster Interconnets,&quot; IEEE Transactions on Computers, Vol. 54, No. 6, pp. 660-671, June 2005. (<a href="docs/TC_2005.pdf">pdf</a>)
+</font>
+</UL>
+<p style='margin-left:60;'>
+<UL>
+<font class=aatitle><LI> 
+E. J. Kim, K. H. Yum, and C. R. Das, &quot;Performance Analysis of a QoS Capable Cluster Interconnect,&quot; Performance Evaluation, Volume 60, Issues 1-4, pp. 275-302, May 2005. (<a href="docs/Performance_analysis.pdf">pdf</a>)
+</font>
+</UL>
+
+<span style='mso-bookmark:OLE_LINK1'></span>
+
+<p class=MsoNormal><span style='font-size:11.0pt;mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<!-- body end -->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class='hpclFooter' height="40" valign="center" style="border-width:1; border-color:rgb(102,102,102); border-style:solid;" bgcolor="#CCCCCC">
+            &nbsp;&nbsp;&nbsp;&nbsp;&copy; 2004 High Performance Computing Laboratory, Department of Computer Science, Texas A&amp;M University<br> 
+            &nbsp;&nbsp;&nbsp;&nbsp;427C Harvey R. Bright Bldg, College Station, TX 77843-3112
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

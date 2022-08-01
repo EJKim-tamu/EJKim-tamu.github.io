@@ -1,0 +1,263 @@
+<html>
+
+<head>
+<title>Research Areas in HPCL</title>
+<LINK href="hpcl.css" type=text/css rel=Stylesheet>
+</head>
+
+<body bgcolor="#EFEFEF" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+<table border="0" cellpadding="0" cellspacing="0" width="800" height="100%" bgcolor="white">
+  <tr>
+    <td valign="top" style="border-width:1; border-color:rgb(102,102,102); border-style:solid;">
+      <table cellspacing="0" width="800" border="0" cellpadding="0">
+        <tr>
+          <td bgcolor="#660000" height="20">
+            &nbsp;&nbsp;&nbsp;&nbsp;<a class='univlink' href="http://www.cs.tamu.edu/">DEPARTMENT OF COMPUTER SCIENCE</a> <font color='white'>|</font> <a class='univlink' href="http://aggieengineer.tamu.edu/">DWIGHT LOOK COLLEGE OF ENGINEERING</a> <font color='white'>|</font> <a class='univlink' href="http://www.tamu.edu/">TEXAS A&amp;M UNIVERSITY</a></td>
+        </tr>
+        <tr>
+          <td height="92">
+           <table border="0" width="100%" height="100%" cellpadding='0'>
+             <tr>
+               <td align='center'>
+                 <img src="images/hpcl_logo.jpg" border="0" width="80"></td>
+               <td>
+                 <font face="Tahoma" color=#8E0E1B size="5"><b>High Performance Computing Laboratory</b></font>
+                  </td>
+               </tr>
+           </table></td>
+        </tr>
+        <tr>
+          <td height="22" bgcolor="black">
+            <font color='white'>&nbsp;&nbsp;&nbsp;&nbsp;<a class='lablink' href=index.html>Home</a>
+            | <a class='lablink' href=research_2010.html>Research</a> 
+            | <a class='lablink' href=publication.html>Publication</a> 
+            | <a class='lablink' href=people.html>People</a>
+            | <a class='lablink' href=links.html>Links</a> 
+            </font></td>
+        </tr>
+        <tr>
+          <td height="400" valign="top">
+            <table cellspacing=20>
+              <tr><td class='hpclBodyText' align='jusify'>
+<!-- body start -->
+<hr width=90% noshade>
+<center><font class=pagetitle><b>Communication-Centric CMP Design</b><br>High Performance Computing Laboratory</font></center>
+<hr width=90% noshade>
+
+
+                                    <p><h3>Peak Power Control</h3></p>
+
+<p>
+<font face="Arial"><span style="font-size:11pt;">Communication traffic of
+these applications makes routers greedy to acquire more
+power such that the total consumed power of the network
+may exceed the supplied power and cause reliability
+problems. To ensure high performance and power
+constraint satisfaction, the on-chip network must have a
+peak power control mechanism.
+The satisfaction of peak power consumption
+in a single chip is essential to maintaining supply voltage
+levels, to supporting reliability, to limiting capacity of
+heat sinks and to meeting affordable packaging costs.
+Since the total power supplied to a chip is distributed to
+all the units of a chip, each unit should keep its power
+consumption below a preset upper limit. With the
+increasing demand for interconnect bandwidth, an on-chip
+network becomes the major power consumer in a
+chip.
+</span></font></p>
+
+<p>
+<font face="Arial"><span style="font-size:11pt;">Multimedia applications on a System-on-Chip (SoC)
+are extensively being studied for bandwidth requirements
+over heterogeneous components of the network.
+However, we are focusing on the QoS environment in the
+homogenous network such as chip multiprocessors. An
+on-chip network must support guarantee for the delivery
+of multimedia data (real-time traffic) as well as the
+normal message-oriented communication (best-effort
+traffic).
+</span></font></p>
+
+<p>
+<font face="Arial"><span style="font-size:11pt;">We propose a credit-based peak power
+control to meet pre-specified power constraints while
+maintaining the service quality, by regulating injection of
+packets. We take different approaches for different traffic
+types. For real-time traffic, instead of throttling the
+injection of packets of already established connections,
+our scheme works by determining the acceptance of a
+new connection based on the requirement of the
+consumed power and the available power budget as in the
+case of admission control. We also show how to calculate
+the expected power consumption of a connection from its
+bandwidth requirement. For best-effort traffic, we
+calculate the required power of a packet based on the
+distance from its source to the destination. If the expected
+power consumption exceeds the power budget, we throttle
+the injection of the packet such as the congestion control.
+</span></font></p>
+
+<table align='center'>
+<tr align='center'><td><img src='images/icpp05_ppc_inject.png' width="500"></td></tr>
+<tr align='center'><td><b>Peak Power Control By Regulating Input Load</b></td></tr>
+</table>
+ 
+                                    <p><h3>Domain-Specific On-Chip Network Design in Large Scale Cache Systems</h3></p>
+
+<p>
+<font face="Arial"><span style="font-size:11pt;">As circuit integration technology advances, the design of
+efficient interconnects has become critical. On-chip networks
+have been adopted to overcome scalability and the poor resource
+sharing problems of shared buses or dedicated wires.
+However, using a general on-chip network for a specific domain
+may cause underutilization of the network resources
+and huge network delays because the interconnects are not
+optimized for the domain. Addressing these two issues is
+challenging because in-depth knowledges of interconnects
+and the specific domain are required.
+Recently proposed Non-Uniform Cache Architectures
+(NUCAs) use wormhole-routed 2D mesh networks to improve
+the performance of on-chip L2 caches. We observe that network
+resources in NUCAs are underutilized and occupy considerable
+chip area (52% of cache area). Also the network
+delay is significantly large (63% of cache access time). Motivated
+by our observations, we investigate how to optimize
+cache operations and design the network in large scale cache
+systems. We propose a single-cycle router architecture that
+can efficiently support multicasting in on-chip caches. Next,
+we present Fast-LRU replacement, where cache replacement
+overlaps with data request delivery. Finally we propose a
+deadlock-free XYX routing algorithm and a new halo network
+topology to minimize the number of links in the network.
+</span></font></p>
+
+<table align='center'>
+<tr align='center'><td><img src='images/hpca07_designA.png'></td>
+                   <td><img src='images/hpca07_designB.png'></td></tr>
+<tr align='center'><td>Design A: 16x16 Mesh (64KB)</td>
+                   <td>Design B: 16x16 Simplified Mesh (64KB)</td></tr>
+<tr align='center'><td colspan=2><img src='images/hpca07_designC.png'></td></tr>
+<tr align='center'><td colspan=2>Design C: 16x4 Simplified Mesh (256KB)</td></tr>
+<tr align='center'><td><img src='images/hpca07_designD.png'></td>
+                   <td><img src='images/hpca07_designE.png'></td></tr>
+<tr align='center'><td>Design D: Spike-16 Halo (64KB)</td>
+                   <td>Design E: Spike-5 Halo (Non-uniform size)</td></tr>
+<tr align='center'><td colspan=2><b>Domain-Specific Network Development</b></td></tr>
+</table>
+
+<table align='center'>
+<tr align='center'><td><img src='images/hpca07_IPC.png' width="600"></td></tr>
+<tr align='center'><td><b>Performance of Different Designs</b></td></tr>
+</table>
+
+<p><h3>Adaptive Data Compression with Table-based Hardware</h3></p>
+
+<p>
+<font face="Arial"><span style="font-size:11pt;">The design of a low-latency on-chip network is critical
+to provide high system performance, because the network
+is tightly integrated with the processors as well as the onchip
+memory hierarchy operating with a high frequency
+clock. To provide low latency, there have been significant
+efforts on the design of routers and network
+topologies.
+However, due to the stringent power and
+area budgets in a chip, simple routers and network topologies
+are more desirable. In fact, conserving metal resource for
+link implementation can provide more space for logic such
+as cores or caches. Therefore, we focus on maximizing
+bandwidth utilization in the existing network.
+Data compression has been adopted in hardware designs
+to improve performance and power. Cache compression increases
+the cache capacity by compressing block data and
+accommodating more blocks in a fixed space.
+Bus compression also expands the bus width by encoding
+a wide data as a small size code. Recently data
+compression is explored in the on-chip network domain for
+performance and power.
+</span></font></p>
+
+<p>
+<font face="Arial"><span style="font-size:11pt;">We investigate adaptive data compression
+for on-chip network performance optimization, and propose
+a cost-effective implementation. Our design uses a tablebased
+compression approach by dynamically tracking value
+patterns in traffic. Using a table for compression hardware
+processes diverse value patterns adaptively rather than taking
+static patterns based on zero bits in a word. The tablebased
+approach can easily achieve a better compression
+rate by increasing the table size. However, the table for
+compression requires a huge area to keep data values on a
+flow basis.
+In other words, the number of tables depends on
+the network size, because communication cannot be globally
+managed in a switched network. To address this problem, we
+present a shared table scheme that stores identical values as a
+single entry across different flows. In addition, a management
+protocol for consistency between an encoding table and a
+decoding table works in a distributed way so that it allows
+out-of-order delivery in a network.
+</span></font></p>
+
+<p>
+<font face="Arial"><span style="font-size:11pt;">We demonstrate performance improvement techniques to
+reduce negative impact of compression on performance.
+Streamlined encoding combines encoding and flit injection
+processes into a pipeline to minimize the long encoding
+latency. Furthermore, dynamic compression management optimizes
+our compression scheme by selectively applying
+compression to congested paths.</span></font>
+</p>
+
+<table align='center'>
+<tr align='center'><td><img src='images/micro08_pkt_compr.png'></td></tr>
+<tr align='center'><td><b>Packet Compression</b></td></tr>
+</table>
+
+<hr>
+
+  <p><h3>Publications</h3></p>
+<ul>
+ <li>
+  <cite><a href="docs/icpp05_ppc.pdf">Peak Power Control for a QoS Capable On-Chip Network</a></cite>,<br>
+  Y. Jin, E. J. Kim, K. H. Yum,<br>
+  International Conference on Parallel Processing (ICPP), June 2005<br>
+  IBM Austin Conference on Energy-Efficient Design (ACEED), March 2005 (poster)<br>
+ </li>
+ <li>
+  <cite><a href="docs/hpca07.pdf">A Domain-Specific On-Chip Network Design for Large Scale Cache Systems</a></cite>,<br>
+  Y. Jin, E. J. Kim, K. H. Yum,<br>
+  International Symposium on High-Performance Computer Architecture (HPCA), February 2007<br>
+ </li>
+ <li>
+  <cite><a href="docs/micro08.pdf">Adaptive Data Compression for High-Performance Low-Power On-Chip Networks</a></cite>,<br>
+  Y. Jin, K. H. Yum, E. J. Kim,<br>
+  International Symposium on Microarchitecture (MICRO), November 2008<br>
+ </li>
+  <li>
+	  <cite><a href="docs/nocs09.pdf">Recursive Partitioning Multicast: A Bandwidth-Efficient Routing for Networks-On-Chip</a>
+		</cite>,<br>
+		  L. Wang, Y. Jin, H. J. Kim and E. J. Kim,<br>
+			  International Symposium on Networks-on-Chip (NOCS), San Diego, CA, May 2009<br>
+				 </li>
+
+</ul>
+
+<!-- bodg end -->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class='hpclFooter' height="40" valign="center" style="border-width:1; border-color:rgb(102,102,102); border-style:solid;" bgcolor="#CCCCCC">
+            &nbsp;&nbsp;&nbsp;&nbsp;&copy; 2004 High Performance Computing Laboratory, Department of Computer Science, Texas A&amp;M University<br> 
+            &nbsp;&nbsp;&nbsp;&nbsp;427C Harvey R. Bright Bldg, College Station, TX 77843-3112
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

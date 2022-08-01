@@ -1,0 +1,189 @@
+<html>
+
+<head>
+<title>Dynamic Thermal Management in CMPs | High Performance Computing Laboratory</title>
+<LINK href="hpcl.css" type=text/css rel=Stylesheet>
+</head>
+
+<body bgcolor="#EFEFEF" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+<table border="0" cellpadding="0" cellspacing="0" width="800" height="100%" bgcolor="white">
+  <tr>
+    <td valign="top" style="border-width:1; border-color:rgb(102,102,102); border-style:solid;">
+      <table cellspacing="0" width="800" border="0" cellpadding="0">
+        <tr>
+          <td bgcolor="#660000" height="20">
+            &nbsp;&nbsp;&nbsp;&nbsp;<a class='univlink' href="http://www.cs.tamu.edu/">DEPARTMENT OF COMPUTER SCIENCE</a> <font color='white'>|</font> <a class='univlink' href="http://aggieengineer.tamu.edu/">DWIGHT LOOK COLLEGE OF ENGINEERING</a> <font color='white'>|</font> <a class='univlink' href="http://www.tamu.edu/">TEXAS A&amp;M UNIVERSITY</a></td>
+        </tr>
+        <tr>
+          <td height="92">
+           <table border="0" width="100%" height="100%" cellpadding='0'>
+             <tr>
+               <td align='center'>
+                 <img src="images/hpcl_logo.jpg" border="0" width="80"></td>
+               <td>
+                 <font face="Tahoma" color=#8E0E1B size="5"><b>High Performance Computing Laboratory</b></font>
+                  </td>
+               </tr>
+           </table></td>
+        </tr>
+        <tr>
+          <td height="22" bgcolor="black">
+            <font color='white'>&nbsp;&nbsp;&nbsp;&nbsp;<a class='lablink' href=index.html>Home</a>
+            | <a class='lablink' href=research_2010.html>Research</a> 
+            | <a class='lablink' href=publication.html>Publication</a> 
+            | <a class='lablink' href=people.html>People</a>
+            | <a class='lablink' href=links.html>Links</a> 
+            </font></td>
+        </tr>
+        <tr>
+          <td height="400" valign="top">
+            <table cellspacing=20>
+              <tr><td class='hpclBodyText' align='jusify'>
+<!-- body start -->
+<hr width=90% noshade>
+<center><font class=pagetitle><b>Secure Cluster System Design</b><br>High Performance Computing Laboratory</font></center>
+<hr width=90% noshade>
+
+<P>
+Recent malicious attacks to many research/commercial servers have made protection and security essential requirements in all computer systems. 
+There are two types of possible attacks: software and physical attacks. Software attacks exploit software vulnerabilities of the operating system (OS) 
+and server applications such as web and database services. Physical attacks capture or modify data from the system memory or system bus through 
+external devices physically attached to the system. To mitigate the physical attacks, memory encryption and authentication have been widely 
+investigated for uniprocessor systems. However, the uniprocessor security models are not sufficient to design secure multiprocessor/cluster systems 
+due to the absence of efficient cache-to-cache/node-to-node communication protection. Hence, we explore various security issues possible in 
+multiprocessor/cluster systems and propose mechanisms for architectural support to enhance security.
+
+<p>
+<a name="later"><b>Security Enhanced Shared Memory Multiprocessor Systems</b></a>
+Protection and security are becoming essential requirements in commercial servers. We present a fast and efficient method for providing secure 
+memory and cache-to-cache communications in shared memory multiprocessor systems that are becoming enormously popular in designing servers for 
+various applications. Since our scheme is independent of underlying interconnects and cache coherence protocols, we refer to it as 
+Interconnects-Independent Security Enhanced Shared Memory Multiprocessor Systems (I2SEMS). The main challenge in designing I2SEMS is 
+how to precompute keystreams in a timely manner, which is critical to minimize performance overhead. We achieve this goal by adopting a single 
+system-wide Global Counter Controller (GCC) and three additional components for each processor: a keystream queue, a keystream cache, and a keystream pool. 
+Simulation results show that the overall performance slowdown is 4% on average and the keystream hit rate is as high as 78%. 
+The stable keystream hit rate shows that I2SEMS works well with both memory-read and memory-write dominant applications. 
+Therefore, we expect I2SEMS to enhance security of shared memory multiprocessor systems with marginal performance overhead.
+
+<p>
+<center>
+<table>
+<tr>
+<td><img src="./images/I2SEMS-resized.jpg" width=400></td>
+<td><img src="./images/I2SEMS_hitrate-resized.jpg" width=400></td>
+</tr>
+<tr><td align=center>Security Model</td><td align=center>I2SEMS Prediction Correctness</td></tr>
+<!--
+<tr><td colspan=2 align=center><b>Running Time</b></td></tr>
+<tr>
+<td><img src=images/rtGprm.gif width=250></td>
+<td><img src=images/rtC.gif width=250></td>
+</tr>
+<tr><td align=center>Node Generation</td><td align=center>Node Connection</td></tr>
+-->
+</table>
+</center>
+
+<p>
+<a name="initial"><b>Security Framework for InfiniBand Architecture</b></a>
+The InfiniBand Architecture (IBA) is a promising communication standard for building clusters and system area networks. 
+However, the IBA specification has left out security aspects, resulting in potential security vulnerabilities, 
+which could be exploited with moderate effort. In this research, we provide a comprehensive security framework for 
+IBA by first looking into these vulnerabilities from three classical security aspects (confidentiality, authentication, and availability.
+Then, we investigate the following security issues. First, as groundwork for secure services in IBA, we present partition-level 
+and queue-pair-level key management schemes, both of which can be easily integrated into IBA. Second, for confidentiality and 
+authentication, we present a method to incorporate a scalable encryption and authentication algorithm into IBA, with little 
+performance overhead. Third, for better availability, we propose a stateful ingress filtering mechanism to block denial-of-service 
+(DoS) attacks. Finally, to further improve the availability, we provide a scalable packet marking method tracing back DoS attacks. 
+Simulation results of an IBA network show that the security performance overhead due to encryption/authentication on network latency 
+ranges from 0.7 percent to 12.4 percent. As a pioneering work in architectural support for secure cluster systems, the security frame 
+for IBA is expected to be used as a guideline to develop general secure cluster systems.
+
+<p>
+<center>
+<table>
+<tr>
+<td><img src="./images/partition level key management-resized.jpg" width=400></td>
+<td><img src="./images/SIF network delay-resized.jpg" width=400></td>
+</tr>
+<tr><td align=center>Partition-Level Key Management Scheme</td><td align=center>Network Delay for Stateful Ingress Filtering</td></tr>
+<!--
+<tr><td colspan=2 align=center><b>Running Time</b></td></tr>
+<tr>
+<td><img src=images/rtGprm.gif width=250></td>
+<td><img src=images/rtC.gif width=250></td>
+</tr>
+<tr><td align=center>Node Generation</td><td align=center>Node Connection</td></tr>
+-->
+</table>
+</center>
+
+
+
+<!-- ========================== -->
+<p><hr width="90%" noshade>
+
+<a NAME="top"> <h1>Papers</h1> </a>
+<p style='margin-left:60;'>
+<UL>
+<font class=aatitle>
+<LI>  <a href="./docs/pact07_I2SEMS.pdf"><font class=ytitle>"I2SEMS: Interconnects-Independent Security Enhanced Shared Memory Multiprocessor Systems,"</font></a> M. Lee, M. Ahn, and E.J. Kim, in the Proceedings of the 16th International Conference on Parallel Architectures and Compilation Techniques (PACT), Brasov, Romania, 2007.	
+</font>
+</UL>
+<p style='margin-left:60;'>
+<UL>
+<font class=aatitle>
+<LI>  <a href="./docs/tpds07_secure_infiniband.pdf"><font class=ytitle>"A Comprehensive Framework for Enhancing Security in InfiniBand Architecture,"</font></a> M. Lee, and E.J. Kim, IEEE Transactions on Parallel and Distributed Systems (TPDS) Vol. 18, No. 10, pp. 1393-1406, Oct. 2007.	
+</font>
+</UL>
+<UL>
+<font class=aatitle>
+<LI>  <a href="./docs/clustersec06_lee.pdf"><font class=ytitle>"An Overview on Security Issues in Cluster Interconnects,"</font></a> M. Lee, E.J. Kim, K. H. Yum and M. Yousif, In the Proceedings of the Cluster-Sec 2006 Workshop (Cluster-Sec, CCGrid Workshops) 2006, Singapore, 2006.
+</font>
+</UL>	
+<p style='margin-left:60;'>
+<UL>
+<font class=aatitle>
+<LI>  <a href="./docs/ipdps.pdf"><font class=ytitle>"Security Enhancement in InfiniBand Architecture,"</font></a> M. Lee, E.J. Kim, and M. Yousif, in the Proceedings of the 19th IEEE International Parallel & Distributed Processing Symposium (IPDPS), Denver, 2005.
+</font>
+</UL>	
+<p style='margin-left:60;'>
+<UL>
+<font class=aatitle>
+<LI>  <a href="./docs/cluster-sec.pdf"><font class=ytitle>"Instant Attack Stopper in InfiniBand Architecture,"</font></a> M. Lee, E.J. Kim, K. H. Yum and M. Yousif, in the Proceedings of the Cluster-Sec 2005 Workshop  (Cluster-Sec, CCGrid Workshops) 2005, Cardiff, UK, 2005. 
+</font>
+</UL>	
+<p style='margin-left:60;'>
+<UL>
+<font class=aatitle>
+<LI>  <a href="./docs/iwnda.pdf"><font class=ytitle>"A Source Identification Scheme against DDoS Attacks in Cluster Interconnects,"</font></a> M. Lee, E.J. Kim, and C. W. Lee, 
+in International Workshop on Network Design and Architecture (IWNDA) in conjunction with ICPP 2004, pp.354-362.
+</font>
+</UL>	
+<p style='margin-left:60;'>
+
+
+
+
+<span style='mso-bookmark:OLE_LINK1'></span>
+
+<p class=MsoNormal><span style='font-size:11.0pt;mso-bidi-font-size:10.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<!-- body end -->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class='hpclFooter' height="40" valign="center" style="border-width:1; border-color:rgb(102,102,102); border-style:solid;" bgcolor="#CCCCCC">
+            &nbsp;&nbsp;&nbsp;&nbsp;&copy 2004 High Performance Computing Laboratory, Department of Computer Science, Texas A&M University<br> 
+            &nbsp;&nbsp;&nbsp;&nbsp;427C Harvey R. Bright Bldg, College Station, TX 77843-3112
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

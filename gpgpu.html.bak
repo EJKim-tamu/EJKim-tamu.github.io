@@ -1,0 +1,332 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="gpgpu_files/filelist.xml">
+<link rel=Edit-Time-Data href="gpgpu_files/editdata.mso">
+<title>Research Areas in HPCL</title>
+<link rel=themeData href="gpgpu_files/themedata.thmx">
+<link rel=colorSchemeMapping href="gpgpu_files/colorschememapping.xml">
+<link rel=Stylesheet type="text/css" media=all href=hpcl.css>
+<style>
+</style>
+</head>
+
+<body bgcolor="#EFEFEF" lang=EN-US link=blue vlink=purple style='tab-interval:
+.5in' leftmargin=0 marginwidth=0 topmargin=0 marginheight=0>
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=0
+ style='width:600.0pt;mso-cellspacing:0in;background:white;mso-yfti-tbllook:
+ 1184;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid #666666 1.0pt;mso-border-alt:solid #666666 .75pt;
+  padding:0in 0in 0in 0in'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=0
+   style='width:600.0pt;mso-cellspacing:0in;mso-yfti-tbllook:1184;mso-padding-alt:
+   0in 0in 0in 0in'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:15.0pt'>
+    <td style='background:#660000;padding:0in 0in 0in 0in;height:15.0pt'>
+    <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;<a
+    href="http://www.cs.tamu.edu/"><b><span style='font-size:8.0pt;font-family:
+    "Verdana",sans-serif;color:white;text-decoration:none;text-underline:none'>DEPARTMENT
+    OF COMPUTER SCIENCE</span></b></a> <span style='color:white'>|</span> <a
+    href="http://aggieengineer.tamu.edu/"><b><span style='font-size:8.0pt;
+    font-family:"Verdana",sans-serif;color:white;text-decoration:none;
+    text-underline:none'>DWIGHT LOOK COLLEGE OF ENGINEERING</span></b></a> <span
+    style='color:white'>|</span> <a href="http://www.tamu.edu/"><b><span
+    style='font-size:8.0pt;font-family:"Verdana",sans-serif;color:white;
+    text-decoration:none;text-underline:none'>TEXAS A&amp;M UNIVERSITY</span></b></a><o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1;height:69.0pt'>
+    <td style='padding:0in 0in 0in 0in;height:69.0pt'>
+    <table class=MsoNormalTable border=0 cellpadding=0 width="100%"
+     style='width:100.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;
+     mso-padding-alt:0in 0in 0in 0in' height="100%">
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:0in 0in 0in 0in'>
+      <p class=MsoNormal align=center style='text-align:center'><span
+      style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><img
+      border=0 width=80 height=80 id="_x0000_i1121" src="images/hpcl_logo.jpg"></span><span
+      style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+      </td>
+      <td style='padding:0in 0in 0in 0in'>
+      <p class=MsoNormal><b><span style='font-size:18.0pt;font-family:"Tahoma",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#8E0E1B'>High Performance
+      Computing Laboratory</span></b><span style='mso-fareast-font-family:"Times New Roman"'>
+      <o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2;height:16.5pt'>
+    <td style='background:black;padding:0in 0in 0in 0in;height:16.5pt'>
+    <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman";
+    color:white'>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html"><span
+    style='font-size:9.0pt;font-family:"Verdana",sans-serif;color:white;
+    text-decoration:none;text-underline:none'>Home</span></a> | <a
+    href="research_2015.html"><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+    color:white;text-decoration:none;text-underline:none'>Research</span></a> |
+    <a href="publication.html"><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+    color:white;text-decoration:none;text-underline:none'>Publication</span></a>
+    | <a href="people.html"><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+    color:white;text-decoration:none;text-underline:none'>People</span></a> | <a
+    href="links.html"><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+    color:white;text-decoration:none;text-underline:none'>Links</span></a> </span><span
+    style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:3;height:300.0pt'>
+    <td valign=top style='padding:0in 0in 0in 0in;height:300.0pt'><!-- body start -->
+    <table class=MsoNormalTable border=0 cellspacing=20 cellpadding=0
+     style='mso-cellspacing:15.0pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <div class=MsoNormal align=center style='text-align:center'><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+      <hr size=2 width="90%" noshade style='color:#A0A0A0' align=center>
+      </span></div>
+      <p class=MsoNormal align=center style='text-align:center'><b><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman"'>High
+      Performance On-Chip Interconnects Design for Multicore Accelerators </span></b><b><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Malgun Gothic"'><o:p></o:p></span></b></p>
+      <p class=MsoNormal align=center style='text-align:center'><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman"'>High
+      Performance Computing Laboratory<o:p></o:p></span></p>
+      <div class=MsoNormal align=center style='text-align:center'><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+      <hr size=2 width="90%" noshade style='color:#A0A0A0' align=center>
+      </span></div>
+      <h3><span style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+      "Times New Roman"'>Power-Gating for Energy-Efficient Networks-on-Chip<o:p></o:p></span></h3>
+      <h3><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+      font-weight:normal;mso-bidi-font-weight:bold'>Chip Multiprocessors (CMPs)
+      are scaling to 100s and 1000s cores owing to shrinking transistor sizes
+      and denser on-chip packaging as stated by Moore&#8217;s law. However, the
+      failure of Dennard Scaling, supply voltage not scaling down with the
+      transistor size, exposes high risks to break the power and thermal
+      constraints to keep all on-chip components switching simultaneously. The
+      future CMP designs will have to work under stricter power envelops.
+      Scalable Networks-on-Chip (<span class=SpellE>NoCs</span>), like 2D
+      meshes, have become <i style='mso-bidi-font-style:normal'>de facto</i>
+      interconnection mechanism in large scale CMPs. Recent studies have shown
+      that <span class=SpellE>NoCs</span> consume a significant portion of the
+      total on-chip power budget, ranging from 10% to 36%. Hence,
+      power-efficient <span class=SpellE>NoCs</span> designs are of the highest
+      priority for power-constrained future CMPs. <o:p></o:p></span></h3>
+      <h3><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+      font-weight:normal;mso-bidi-font-weight:bold'>Static power consumption of
+      the on-chip circuitry is increasing at an alarming rate with the chip
+      circuitry is increasing at an alarming rate with the scaling down of
+      feature sizes and chip operating voltages towards near threshold levels.
+      As we reach towards sub-10nm feature sizes, static power will become the
+      major portion of the <span class=SpellE>NoC</span> power consumption.
+      Power-gating, cutting off supply current to idle chip components, is an
+      effective technique that can be used to mitigate the worsening impact of
+      on-chip static power consumption. However, applying power-gating for <span
+      class=SpellE>NoCs</span> may disconnect the network and lead to
+      performance degradation.<o:p></o:p></span></h3>
+      <h3><span style='font-size:11.0pt;font-family:"Arial",sans-serif;
+      font-weight:normal;mso-bidi-font-weight:bold'>We propose Fly-Over (FLOV),
+      a light-weight distributed power-gating mechanism for energy-efficient <span
+      class=SpellE>NoCs</span>. FLOV tries to power-gate idle routers in
+      a distributed manner through handshake protocols. FLOV routers provides FLOV links
+      for packets to fly-over gated routers with a dynamic best-effort shortest
+      routing algorithm in order to facilitate network functionalities and
+      sustain performance.<span style='mso-spacerun:yes'>&nbsp; </span><o:p></o:p></span></h3>
+      <h3 align=center style='margin-top:0in;text-align:center'><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+      font-weight:normal;mso-bidi-font-weight:bold;mso-no-proof:yes'><![if !vml]><img border=0 width=348 height=229
+      src="gpgpu_files/flov_router.png" alt="flov_router" v:shapes="Picture_x0020_49"><![endif]></span><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+      font-weight:normal;mso-bidi-font-weight:bold'><span
+      style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+      style='mso-no-proof:yes'><![if !vml]><img border=0 width=243 height=232
+      src="gpgpu_files/flov_routing_example.png" v:shapes="Picture_x0020_4"><![endif]></span><o:p></o:p></span></h3>
+      <h3 align=center style='text-align:center'><span style='font-size:12.0pt;
+      mso-bidi-font-size:13.5pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:
+      minor-latin;mso-fareast-font-family:"Times New Roman";mso-hansi-theme-font:
+      minor-latin;mso-bidi-theme-font:minor-latin;font-weight:normal;
+      mso-bidi-font-weight:bold'><span
+      style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+      style='font-size:12.0pt;mso-bidi-font-size:13.5pt;font-family:"Calibri",sans-serif;
+      mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";
+      mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>FLOV
+      Router Architecture<span
+      style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </span>FLOV Routing Example<o:p></o:p></span></h3>
+      <h3 align=center style='text-align:center'><span style='font-family:"Helvetica",sans-serif;
+      mso-fareast-font-family:"Times New Roman";font-weight:normal;mso-bidi-font-weight:
+      bold;mso-no-proof:yes'><![if !vml]><img border=0 width=639 height=229
+      src="gpgpu_files/flov_perf.png" alt="flov_perf" v:shapes="Picture_x0020_51"><![endif]></span><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+      font-weight:normal;mso-bidi-font-weight:bold'><o:p></o:p></span></h3>
+      <h3 align=center style='text-align:center'><span style='font-size:12.0pt;
+      mso-bidi-font-size:13.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+      "Times New Roman"'>Application Execution Time for PARSEC Benchmarks<o:p></o:p></span></h3>
+      <h3 align=center style='text-align:center'><span style='font-family:"Helvetica",sans-serif;
+      mso-fareast-font-family:"Times New Roman";font-weight:normal;mso-bidi-font-weight:
+      bold;mso-no-proof:yes'><![if !vml]><img border=0 width=647 height=260
+      src="gpgpu_files/flov_energy.png" alt="flov_energy" v:shapes="Picture_x0020_52"><![endif]></span><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+      font-weight:normal;mso-bidi-font-weight:bold'><o:p></o:p></span></h3>
+      <h3 align=center style='text-align:center'><span style='font-size:12.0pt;
+      mso-bidi-font-size:13.5pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+      "Times New Roman"'>Application Energy Consumption for PARSEC Benchmarks<o:p></o:p></span></h3>
+      <h3><span style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+      "Times New Roman";font-weight:normal;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></h3>
+      <h3><span style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+      "Times New Roman"'>Bandwidth Efficient On-Chip Interconnect Designs </span><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Malgun Gothic"'><o:p></o:p></span></h3>
+      <div align=center>
+      <table class=MsoNormalTable border=0 cellpadding=0 style='mso-cellspacing:
+       1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+       <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+        <td style='padding:.75pt .75pt .75pt .75pt'>
+        <p><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>GPGPUs
+        are characterized by numerous programmable computational cores which
+        allow for thousands of simultaneous active threads to execute in
+        parallel. The advent of parallel programming models, such as CUDA and <span
+        class=SpellE>OpenCL</span>, makes it easier to program
+        graphics/non-graphics applications, making GPGPUs an excellent
+        computing platform. The growing quantity of parallelism and the fast
+        scaling of GPGPUs have fueled an increasing demand for
+        performance-efficient on-chip fabrics finely tuned for GPGPU cores and
+        memory systems. <br>
+        <br>
+        Ideal interconnects should minimize message blocking by efficiently exploiting
+        limited network resources such as virtual channels (VCs) and physical
+        channels (PCs) while ensuring deadlock freedom. Switch-based
+        Networks-on-Chip (<span class=SpellE>NoCs</span>) have been useful in <span
+        class=SpellE>manycore</span> chip-multiprocessor (CMP) environments for
+        their scalability and flexibility. Unlike CMP systems where NoC traffic
+        tends to be uniformly divided up across cores communicating with
+        distributed on-chip caches, the communication in GPGPUs is highly
+        asymmetric, mainly between many compute cores and a few memory controllers
+        (MCs) on a chip. Thus the MCs often become hot spots, leading to skewed
+        usage of significant portions of the NoC resources such as wires and
+        buffers. Specifically, heavy reply traffic from MCs to cores
+        potentially causes a network bottleneck, degrading the overall system
+        performance. Therefore when we design a bandwidth-efficient NoC, the
+        asymmetry of its on-chip traffic must be considered.<o:p></o:p></span></p>
+        <p><span style='font-size:11.0pt;font-family:"Arial",sans-serif'>The
+        throughput-effectiveness is a crucial metric for improving the overall
+        performance in throughput-oriented architectures, thus designing a high
+        bandwidth NoC in GPGPUs is of primary importance. Thus, to achieve such
+        a goal, we quantitatively analyze the impact of network traffic
+        patterns in GPGPUs with different MC placements and dimension order
+        routing algorithms. Then, motivated by the detailed analysis, we
+        propose VC monopolizing and partitioning schemes which dramatically
+        improve NoC resource utilization without causing protocol deadlocks. We
+        also investigate the impact of different routing algorithms under diverse
+        MC placements.<o:p></o:p></span></p>
+        <p class=MsoNormal align=center style='text-align:center'>
+        <![if !vml]><img width=522 height=174
+        src="gpgpu_files/image002.jpg" alt="Text Box:  " v:shapes="Picture_x0020_10"><![endif]><span
+        style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+        </td>
+       </tr>
+       <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+        <td style='padding:.75pt .75pt .75pt .75pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span
+        style='mso-fareast-font-family:"Times New Roman"'>Packet Type
+        Distribution for GPGPU Benchmarks</span></b><span style='mso-fareast-font-family:
+        "Malgun Gothic"'><o:p></o:p></span></p>
+        </td>
+       </tr>
+      </table>
+      </div>
+      <p align=center style='text-align:center'><![if !vml]><img width=264 height=246
+      src="gpgpu_files/image004.jpg" alt="Text Box:  " v:shapes="Picture_x0020_11"><![endif]><span
+      style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span>
+    <![if !vml]><img width=269 height=253
+      src="gpgpu_files/image006.jpg" alt="Text Box:  " v:shapes="Picture_x0020_12"><![endif]></p>
+      <p align=center style='text-align:center'><b style='mso-bidi-font-weight:
+      normal'><span style='mso-bidi-font-size:9.0pt'>Network traffi</span></b><b><span
+      style='mso-fareast-font-family:"Times New Roman"'>c example</span></b><b><span
+      style='mso-fareast-font-family:"Malgun Gothic"'>s</span></b><b><span
+      style='mso-fareast-font-family:"Times New Roman"'> with </span></b><b><span
+      style='mso-fareast-font-family:"Malgun Gothic"'>XY and </span></b><b><span
+      style='mso-fareast-font-family:"Times New Roman"'>XY-YX routing</span></b><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+      <div class=MsoNormal align=center style='text-align:center'><span
+      style='font-size:10.0pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+      "Times New Roman"'>
+      <hr size=2 width="100%" align=center>
+      </span></div>
+      <h3><span style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+      "Times New Roman"'>Publications<o:p></o:p></span></h3>
+      <ul type=disc>
+       <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+           auto;mso-list:l1 level1 lfo3;tab-stops:list .5in'><cite><span
+           style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Fly-Over: A Light-Weight Distributed Power-Gating
+           Mechanism for Energy-Efficient Networks-on-Chip</span></cite><span
+           style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>,<br>
+           </span><span style='font-family:"Helvetica",sans-serif;color:black;
+           background:white'>R. <span class=SpellE>Boyapati</span>*, J. Huang*,
+           N. Wang, K. H. Kim, K. H. Yum and E. J. Kim</span>,<span
+           style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'><br>
+           </span><span style='font-family:"Helvetica",sans-serif;color:black;
+           background:white'>The 31st IEEE International Parallel &amp;
+           Distributed Processing Symposium (IPDPS), June, 2017</span><span
+           style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'><o:p></o:p></span></li>
+       <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+           auto;mso-list:l1 level1 lfo3;tab-stops:list .5in'><cite><span
+           style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Bandwidth Efficient On-Chip Interconnect Designs
+           for GPGPUs</span></cite><span style='font-family:"Helvetica",sans-serif;
+           mso-fareast-font-family:"Times New Roman"'>,<br>
+           </span><span style='font-family:"Helvetica",sans-serif;color:black;
+           background:white'>H. Jang, J. Kim, P. Gratz, K. H. Yum, and E. J.
+           Kim</span>,<span style='font-family:"Helvetica",sans-serif;
+           mso-fareast-font-family:"Times New Roman"'><br>
+           </span><span style='font-family:"Helvetica",sans-serif;color:black;
+           background:white'>The 52nd Design Automation Conference (DAC)</span>,
+           June 2015<span style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'><o:p></o:p></span></li>
+      </ul>
+      <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;margin-left:.5in'><i style='mso-bidi-font-style:normal'><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></i></p>
+      </td>
+     </tr>
+    </table>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes;height:30.0pt'>
+    <td style='border:solid #666666 1.0pt;mso-border-alt:solid #666666 .75pt;
+    background:#CCCCCC;padding:0in 0in 0in 0in;height:30.0pt'>
+    <p class=MsoNormal style='line-height:11.25pt'><span style='font-size:9.0pt;
+    font-family:"Verdana",sans-serif;mso-fareast-font-family:"Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&copy;
+    2004 High Performance Computing Laboratory, Department of Computer Science,
+    Texas A&amp;M University<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;427C Harvey R. Bright <span class=SpellE>Bldg</span>,
+    College Station, TX 77843-3112 <o:p></o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
