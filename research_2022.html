@@ -723,39 +723,36 @@ div.WordSection1
 		 <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt'><span
         class=MsoHyperlink><b style='mso-bidi-font-weight:normal'><span
         style='font-family:"Arial","sans-serif"'><a href="gpgpu.html"></a></span></b></span><b><span
-        style='font-family:"Arial","sans-serif"'> (NSF project, 2014 - 2018) </span></b></p>
+        style='font-family:"Arial","sans-serif"'>
+			 <p><b><span style='font-family:"Arial","sans-serif"'
+			 Communication Architecture Designs for Future Heterogeneous Systems 
+			 (NSF project, 2021-present) </span></b></p>
         <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
          width=857 style='width:642.75pt;mso-cellspacing:0in;mso-yfti-tbllook:
-         1184;mso-padding-alt:0in 0in 0in 0in'>Communication Architecture Designs for Future Heterogeneous Systems
+         1184;mso-padding-alt:0in 0in 0in 0in'>
          <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:
           yes'>
           <td width=552 style='width:5.75in;padding:0in 0in 0in 0in'>
-          <p><span style='font-size:11.0pt;font-family:"Arial","sans-serif"'>Multicore
-          Accelerators like GPUs have recently obtained attention as a
-          cost-effective approach for data parallel architectures, and the fast
-          scaling of the GPUs increases the importance of designing an ideal
-          on-chip interconnection network, which impacts the overall system
-          performance. Since shared buses and crossbar can provide networking
-          performance enough only for a small number of communication nodes,
-          switch-based networks-on-chip (<span class=SpellE>NoCs</span>) have
-          been adopted as an emerging design trend in many-core environments.
-          However, NoC for Multicore Accelerator architectures has not been
-          extensively explored. While the major communication of Chip
-          Multiprocessor (CMP) systems is core-to-core for shared caches, major
-          traffic of Multicore Accelerators is core-to-memory, which makes the
-          memory controllers hot spots. Also, since Multicore Accelerators
-          execute many threads in order to hide memory latency, it is critical
-          for the underlying NoC to provide high bandwidth. </span><span
-          style='font-size:11.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
-          "Malgun Gothic"'><br>
-          </span><span style='font-size:11.0pt;font-family:"Arial","sans-serif"'>In
-          this project, we develop a framework for high-performance,
-          energy-efficient on-chip network mechanisms in synergy with Multicore
-          Accelerator architectures. The desirable properties of a target
-          on-chip network include re-usability across a wide range of Multicore
-          Accelerator architectures, maximization of the use of routing
-          resources, and support for reliable and energy-efficient data
-          transfer.</span></p>
+          <p><span style='font-size:11.0pt;font-family:"Arial","sans-serif"'>
+		Communication Algorithm and Hardware Co-Design for Distributed Deep Learning: The onset of the 
+big data era and rapid advances of accelerator architectures have enabled deep learning applications to 
+achieve superhuman accuracy on complex real-world problems, such as image recognition, natural 
+language processing, and autonomous driving. State-of-the-art DNN models such as GPT-3 have hundreds 
+of billions of parameters, requiring trillions of compute operations and hundreds of gigabytes of storage and 
+massive bandwidth. As data keep exploding and DNNs evolve to be larger and deeper, grids of specialized 
+accelerators have been designed and deployed to train DNN models in a parallel and distributed manner.
+Large-scale distributed deep learning training has enabled developments of more complex deep neural 
+network models to learn from larger datasets for sophisticated tasks. In particular, distributed stochastic 
+gradient descent intensively invokes all-reduce operations for gradient update, which dominates 
+communication time during iterative training epochs.
+		  In this work, we identify the inefficiency in widely used all-reduce algorithms, and the opportunity of 
+algorithm-architecture co-design. We propose MULTITREE all-reduce algorithm with topology and resource 
+utilization awareness for efficient and scalable all-reduce operations, which is applicable to different 
+interconnect topologies. Moreover, we co-design the network interface to schedule and coordinate the allreduce messages for contention-free communications, working in synergy with the algorithm. The flow 
+control is also simplified to exploit the bulk data transfer of big gradient exchange. We evaluate the codesign using different all-reduce data sizes for synthetic study, demonstrating its effectiveness on various 
+interconnection network topologies, in addition to state-of-the-art deep neural networks for real workload 
+experiments.
+		  </span></p>
           </td>
           <td width=289 style='width:216.75pt;padding:0in 0in 0in 0in'>
           <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
