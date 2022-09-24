@@ -787,11 +787,14 @@ experiments.
 		
 		
 	<!-- HW Security begin-->
-	<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt'><span
+        <p class=MsoNormal><span style='mso-fareast-font-family:"Malgun Gothic"'><o:p>&nbsp;</o:p></span></p>
+        <div class=MsoNormal align=center style='text-align:center'><span
+        style='mso-fareast-font-family:"Times New Roman"'>
+        <hr size=2 width="90%" noshade style='color:#A0A0A0' align=center>
+        </span></div>
+        <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt'><span
         class=MsoHyperlink><b style='mso-bidi-font-weight:normal'><span
-        style='font-family:"Arial","sans-serif"'>Communication Architecture Designs for Future Heterogeneous Systems 
-			 (NSF project, 2021-present)
-		</span></b></p>
+        style='font-family:"Arial","sans-serif"'>Hardware Security Provision in Multicore Architecture (2019-present)</span></b></p>
         <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
          width=857 style='width:642.75pt;mso-cellspacing:0in;mso-yfti-tbllook:
          1184;mso-padding-alt:0in 0in 0in 0in'>
@@ -799,24 +802,16 @@ experiments.
           yes'>
           <td width=552 style='width:5.75in;padding:0in 0in 0in 0in'>
           <p><span style='font-size:11.0pt;font-family:"Arial","sans-serif"'>
-		Communication Algorithm and Hardware Co-Design for Distributed Deep Learning: The onset of the 
-big data era and rapid advances of accelerator architectures have enabled deep learning applications to 
-achieve superhuman accuracy on complex real-world problems, such as image recognition, natural 
-language processing, and autonomous driving. State-of-the-art DNN models such as GPT-3 have hundreds 
-of billions of parameters, requiring trillions of compute operations and hundreds of gigabytes of storage and 
-massive bandwidth. As data keep exploding and DNNs evolve to be larger and deeper, grids of specialized 
-accelerators have been designed and deployed to train DNN models in a parallel and distributed manner.
-Large-scale distributed deep learning training has enabled developments of more complex deep neural 
-network models to learn from larger datasets for sophisticated tasks. In particular, distributed stochastic 
-gradient descent intensively invokes all-reduce operations for gradient update, which dominates 
-communication time during iterative training epochs.
-		  In this work, we identify the inefficiency in widely used all-reduce algorithms, and the opportunity of 
-algorithm-architecture co-design. We propose MULTITREE all-reduce algorithm with topology and resource 
-utilization awareness for efficient and scalable all-reduce operations, which is applicable to different 
-interconnect topologies. Moreover, we co-design the network interface to schedule and coordinate the all-reduce messages for contention-free communications, working in synergy with the algorithm. The flow 
-control is also simplified to exploit the bulk data transfer of big gradient exchange. We evaluate the co-design using different all-reduce data sizes for synthetic study, demonstrating its effectiveness on various 
-interconnection network topologies, in addition to state-of-the-art deep neural networks for real workload 
-experiments.
+Security has been identified as one of the grand challenges of the 21st century.
+Security vulnerabilities can cause billion-dollar worth of damage, as exemplified in the recent fiasco of Wells Fargo and eleven other financial institutions.  
+Hardware security, in particular, has become the new territory of exploitation, including the recently-discovered Spectre and Meltdown vulnerabilities.  
+This project aims to tackle a new threat model where the hardware is not trusted as entirety. 
+Either one part of the CPU can be vulnerable and be controlled by the attacker, as exemplified by Spectre attacks, or a compromised or confused CPU can attack other CPUs in a multicore or multi-socket setting. 
+These intra-CPU and inter-CPU threat models in multicore systems will be increasingly crucial, being different from the traditional software-centered, intra- and inter-context (process) models. 
+We need new security principles at the hardware design stage to fortify the internal defense of the hardware, 
+by placing security checking at intra- and inter-CPU components and enforcing security isolation on inter-CPU communication in multicore architecture. 
+We have developed a well-integrated and cross-layer framework to embed security checking and isolation into architectural design. 
+With the framework, we explore new security policies and defense mechanisms to mitigate threat vectors inside CPU architecture and across CPU network in multicore architecture.
 		  </span></p>
           </td>
           <td width=289 style='width:216.75pt;padding:0in 0in 0in 0in'>
@@ -845,7 +840,7 @@ experiments.
            mso-wrap-style:square'>
            <v:imagedata src="research_2015_files/image003.emz" o:title=""/>
           </v:shape><![endif]--><![if !vml]><img border=0 width=256 height=233
-          src="research_2015_files/fig1.pdf" v:shapes="Picture_x0020_13"><![endif]></span><span
+          src="research_2015_files/hwsecurity.pdf" v:shapes="Picture_x0020_13"><![endif]></span><span
           style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
           </td>
          </tr>
